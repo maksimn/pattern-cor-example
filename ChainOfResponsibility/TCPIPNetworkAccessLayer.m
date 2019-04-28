@@ -15,7 +15,9 @@
 - (void)makeRequest:(NSMutableArray *) data
 {
     NSLog(@"TCPIPNetworkAccessLayer makeRequest");
+    
     [data addObject:@"some network access layer headers"];
+    
     NSLog(@"Sending whole TCP/IP network stack data to other host in the network:");
     
     for (NSString *str in data) {

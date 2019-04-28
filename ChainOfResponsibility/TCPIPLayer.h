@@ -16,6 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) TCPIPLayer *nextTCPIPLayer; /**< следующий уровень стека протоколов */
 
+/**
+ Метод выполнения "сетевого запроса"
+
+ @param data - массив данных для передачи по сети
+ */
 - (void)makeRequest:(NSMutableArray *) data;
 
 @end
