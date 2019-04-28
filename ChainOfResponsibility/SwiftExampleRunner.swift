@@ -11,7 +11,7 @@ import Foundation
 open class SwiftExampleRunner : NSObject {
     
     @objc public static func run() {
-        print("SwiftExampleRunner");
+        print("\n\n\nSwiftExampleRunner");
         
         let networkUser = NetworkUser()
         
