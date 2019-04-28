@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "NetworkUser.h"
+#import "ChainOfResponsibility-Swift.h"
 
 
 @implementation ViewController
@@ -18,8 +19,8 @@
     
     [self createUI];
     
-    NetworkUser *networkUser = [NetworkUser new];
-    [networkUser imitateNetworkRequest];
+    [SwiftExampleRunner run];
+    // [self runObjCExample];
 }
 
 - (void)createUI
@@ -27,9 +28,15 @@
     self.view.backgroundColor = UIColor.whiteColor;
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 300, 80)];
     label.numberOfLines = 0;
-    label.text = @"Network protocols imitation.\nPlease look to console to see program output.";
+    label.text = @"Network protocol imitation.\nPlease look to console to see program output.";
     label.center = self.view.center;
     [self.view addSubview:label];
+}
+
+- (void)runObjCExample
+{
+    NetworkUser *networkUser = [NetworkUser new];
+    [networkUser imitateNetworkRequest];
 }
 
 @end

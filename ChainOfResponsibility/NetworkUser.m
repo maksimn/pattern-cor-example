@@ -29,8 +29,8 @@
     
     TCPIPApplicationLayer *applicationLayer = [TCPIPApplicationLayer new];
     applicationLayer.nextTCPIPLayer = transportLayer;
-    NSString *applicationData = @"some application data";
     
+    NSString *applicationData = @"some application data";
     [applicationLayer makeRequest:[NSMutableArray arrayWithArray:@[applicationData]]];
 }
 
