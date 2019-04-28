@@ -13,15 +13,6 @@
 		0C20DA4B2270D26700CB5100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C20DA4A2270D26700CB5100 /* Assets.xcassets */; };
 		0C20DA4E2270D26700CB5100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C20DA4C2270D26700CB5100 /* LaunchScreen.storyboard */; };
 		0C20DA512270D26700CB5100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20DA502270D26700CB5100 /* main.m */; };
-		0C20DA622271D16200CB5100 /* PartA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20DA612271D16200CB5100 /* PartA.m */; };
-		0C20DA652271D18A00CB5100 /* PartB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20DA642271D18A00CB5100 /* PartB.m */; };
-		0C20DA682271D19900CB5100 /* PartC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20DA672271D19900CB5100 /* PartC.m */; };
-		0C20DA6C2271D25900CB5100 /* ConveyorWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20DA6B2271D25900CB5100 /* ConveyorWorker.m */; };
-		0C20DA6F2271D27900CB5100 /* Collector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20DA6E2271D27900CB5100 /* Collector.m */; };
-		0C20DA722271D28800CB5100 /* Polisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20DA712271D28800CB5100 /* Polisher.m */; };
-		0C20DA752271D2C100CB5100 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20DA742271D2C100CB5100 /* Director.m */; };
-		0C20DA782271D2D000CB5100 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20DA772271D2D000CB5100 /* Product.m */; };
-		0C20DA7B2271D91300CB5100 /* PartD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20DA7A2271D91300CB5100 /* PartD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,24 +26,6 @@
 		0C20DA4D2270D26700CB5100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C20DA4F2270D26700CB5100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C20DA502270D26700CB5100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0C20DA602271D16200CB5100 /* PartA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartA.h; sourceTree = "<group>"; };
-		0C20DA612271D16200CB5100 /* PartA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartA.m; sourceTree = "<group>"; };
-		0C20DA632271D18A00CB5100 /* PartB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartB.h; sourceTree = "<group>"; };
-		0C20DA642271D18A00CB5100 /* PartB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartB.m; sourceTree = "<group>"; };
-		0C20DA662271D19900CB5100 /* PartC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartC.h; sourceTree = "<group>"; };
-		0C20DA672271D19900CB5100 /* PartC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartC.m; sourceTree = "<group>"; };
-		0C20DA6A2271D25900CB5100 /* ConveyorWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConveyorWorker.h; sourceTree = "<group>"; };
-		0C20DA6B2271D25900CB5100 /* ConveyorWorker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConveyorWorker.m; sourceTree = "<group>"; };
-		0C20DA6D2271D27900CB5100 /* Collector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Collector.h; sourceTree = "<group>"; };
-		0C20DA6E2271D27900CB5100 /* Collector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Collector.m; sourceTree = "<group>"; };
-		0C20DA702271D28800CB5100 /* Polisher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Polisher.h; sourceTree = "<group>"; };
-		0C20DA712271D28800CB5100 /* Polisher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Polisher.m; sourceTree = "<group>"; };
-		0C20DA732271D2C100CB5100 /* Director.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
-		0C20DA742271D2C100CB5100 /* Director.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
-		0C20DA762271D2D000CB5100 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
-		0C20DA772271D2D000CB5100 /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
-		0C20DA792271D91300CB5100 /* PartD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartD.h; sourceTree = "<group>"; };
-		0C20DA7A2271D91300CB5100 /* PartD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,42 +75,8 @@
 		0C20DA5E2271BE4C00CB5100 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				0C20DA692271D1A200CB5100 /* Employees */,
-				0C20DA5F2271D12300CB5100 /* Parts */,
-				0C20DA732271D2C100CB5100 /* Director.h */,
-				0C20DA742271D2C100CB5100 /* Director.m */,
-				0C20DA762271D2D000CB5100 /* Product.h */,
-				0C20DA772271D2D000CB5100 /* Product.m */,
 			);
 			name = ObjC;
-			sourceTree = "<group>";
-		};
-		0C20DA5F2271D12300CB5100 /* Parts */ = {
-			isa = PBXGroup;
-			children = (
-				0C20DA602271D16200CB5100 /* PartA.h */,
-				0C20DA612271D16200CB5100 /* PartA.m */,
-				0C20DA632271D18A00CB5100 /* PartB.h */,
-				0C20DA642271D18A00CB5100 /* PartB.m */,
-				0C20DA662271D19900CB5100 /* PartC.h */,
-				0C20DA672271D19900CB5100 /* PartC.m */,
-				0C20DA792271D91300CB5100 /* PartD.h */,
-				0C20DA7A2271D91300CB5100 /* PartD.m */,
-			);
-			name = Parts;
-			sourceTree = "<group>";
-		};
-		0C20DA692271D1A200CB5100 /* Employees */ = {
-			isa = PBXGroup;
-			children = (
-				0C20DA6A2271D25900CB5100 /* ConveyorWorker.h */,
-				0C20DA6B2271D25900CB5100 /* ConveyorWorker.m */,
-				0C20DA6D2271D27900CB5100 /* Collector.h */,
-				0C20DA6E2271D27900CB5100 /* Collector.m */,
-				0C20DA702271D28800CB5100 /* Polisher.h */,
-				0C20DA712271D28800CB5100 /* Polisher.m */,
-			);
-			name = Employees;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,18 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C20DA682271D19900CB5100 /* PartC.m in Sources */,
-				0C20DA752271D2C100CB5100 /* Director.m in Sources */,
-				0C20DA782271D2D000CB5100 /* Product.m in Sources */,
 				0C20DA462270D26600CB5100 /* ViewController.m in Sources */,
 				0C20DA512270D26700CB5100 /* main.m in Sources */,
-				0C20DA622271D16200CB5100 /* PartA.m in Sources */,
 				0C20DA432270D26600CB5100 /* AppDelegate.m in Sources */,
-				0C20DA6F2271D27900CB5100 /* Collector.m in Sources */,
-				0C20DA652271D18A00CB5100 /* PartB.m in Sources */,
-				0C20DA7B2271D91300CB5100 /* PartD.m in Sources */,
-				0C20DA6C2271D25900CB5100 /* ConveyorWorker.m in Sources */,
-				0C20DA722271D28800CB5100 /* Polisher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

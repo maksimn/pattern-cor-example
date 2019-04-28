@@ -8,16 +8,24 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self createUI];
 }
 
+- (void)createUI
+{
+    self.view.backgroundColor = UIColor.whiteColor;
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 300, 80)];
+    label.numberOfLines = 0;
+    label.text = @"Network protocols simulation.\nPlease look to console to see program output.";
+    label.center = self.view.center;
+    [self.view addSubview:label];
+}
 
 @end
